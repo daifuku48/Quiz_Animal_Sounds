@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".Animal1Fragment">
+
+    <Button
+        android:id = "@+id/sound_button"
+        android:text = "@string/click_to_listen"
+        android:textSize="24sp"
+        android:fontFamily="@font/raleway_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+
+    <LinearLayout
+        android:id = "@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/sound_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text = "@string/choose_an_animal_and_click"
+            android:textSize="20sp"/>
+        <TextView
+            android:id = "@+id/firstAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/_1_dog"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_margin="40dp"
+            />
+        <TextView
+            android:id = "@+id/secondAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/_2_cat"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_margin="40dp" />
+        <TextView
+            android:id = "@+id/thirdAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/_3_cow"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_margin="40dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

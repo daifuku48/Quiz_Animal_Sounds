@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.luadanilkarit.quiz_animalsounds.SplashFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashFragment_to_animal1Fragment"
+            app:destination="@id/animal1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animal1Fragment"
+        android:name="com.luadanilkarit.quiz_animalsounds.Animal1Fragment"
+        android:label="fragment_animal1"
+        tools:layout="@layout/fragment_animal1" >
+        <action
+            android:id="@+id/action_animal1Fragment_to_animal2Fragment"
+            app:destination="@id/animal2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animal2Fragment"
+        android:name="com.luadanilkarit.quiz_animalsounds.Animal2Fragment"
+        android:label="fragment_animal2"
+        tools:layout="@layout/fragment_animal2" >
+        <action
+            android:id="@+id/action_animal2Fragment_to_animal3Fragment"
+            app:destination="@id/animal3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animal3Fragment"
+        android:name="com.luadanilkarit.quiz_animalsounds.Animal3Fragment"
+        android:label="fragment_animal3"
+        tools:layout="@layout/fragment_animal3" >
+        <action
+            android:id="@+id/action_animal3Fragment_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.luadanilkarit.quiz_animalsounds.ResultsFragment"
+        android:label="fragment_finish"
+        tools:layout="@layout/fragment_finish" >
+        <action
+            android:id="@+id/action_resultsFragment_to_splashFragment"
+            app:destination="@id/splashFragment" />
+    </fragment>
+</navigation>

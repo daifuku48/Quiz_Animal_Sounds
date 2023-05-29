@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz - Animal Sounds</string>
+    <string name="splash_screen">splash screen</string>
+    <string name="click_to_listen">Click to listen</string>
+    <string name="dog">Dog</string>
+    <string name="_1_dog">1. Dog</string>
+    <string name="cat">Cat</string>
+    <string name="_2_cat">2. Cat</string>
+    <string name="choose_an_animal">Choose an animal</string>
+    <string name="choose_an_animal_and_click">Choose an animal and click</string>
+    <string name="_3_cow">3. Cow</string>
+    <string name="wolf">Wolf</string>
+    <string name="bear">Bear</string>
+    <string name="_2_bear">2. Bear</string>
+    <string name="_1_wolf">1. Wolf</string>
+    <string name="_3_monkey">3. Monkey</string>
+    <string name="_1_horse">1. Horse</string>
+    <string name="_2_elephant">2. Elephant</string>
+    <string name="_3_whale">3. Whale</string>
+    <string name="results">Results!</string>
+    <string name="back">Back</string>
+    <string name="not_cool">Not cool</string>
+    <string name="you_can_better">You can better</string>
+    <string name="good_job">Good job</string>
+    <string name="you_are_the_best">You are the best</string>
+</resources>
